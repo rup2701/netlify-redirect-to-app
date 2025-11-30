@@ -1,3 +1,8 @@
 [build]
   command = "npm run build"
   publish = ".next"
+	
+  [[redirects]]
+    from = "/*"
+    to = "https://ezlinks-server.fly.dev"
+    status = 301
