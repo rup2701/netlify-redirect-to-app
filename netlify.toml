@@ -6,3 +6,4 @@
   from = "/*"
   to = "https://ezlinks-server.fly.dev"
   status = 301
+  force = true 
